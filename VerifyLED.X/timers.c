@@ -15,7 +15,7 @@
 /*																			*/
 /****************************************************************************/
 
-static volatile uint32_t  GMilliseconds;        /* Wraps every 49 days */
+static volatile uint32_t  GMilliseconds;        /* Wraps every 497 days */
 
 /****************************************************************************/
 /*																			*/
@@ -81,8 +81,7 @@ uint32_t GetMilliseconds(void)
 
 void ShutdownMillisecondTimer()
 {
-    T1CON = 0;          /* Disable timer 1 */
-    
+    T1CON = 0;          /* Disable timer 1 */ 
 }
 
 void DelayMilliseconds(uint16_t delay)
