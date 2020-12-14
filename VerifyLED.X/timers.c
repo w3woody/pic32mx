@@ -69,12 +69,29 @@ uint32_t GetMilliseconds(void)
 {
     uint32_t v;
     
+    /*
+     * Temporarily disable interrupts. This prevents the millisecond variable
+     * from being partially overwritten while we're reading the value
+     */
+    
     unsigned int state = __builtin_get_isr_state();
     __builtin_disable_interrupts();
     
+    /*
+     *  **Safely** read the timer value into a temporary variable
+     */
+   
     v = GMilliseconds;
 
+    /*
+     *  Reset the interrupt state to whatever it was before
+     */
+    
     __builtin_set_isr_state(state);
+    
+    /*
+     *  Return our result
+     */
     
     return v;
 }
@@ -94,7 +111,7 @@ void DelayMilliseconds(uint16_t delay)
 /*  Timer interrupt. At level 7 since this is a core function */
 void __ISR(_TIMER_1_VECTOR, IPL7AUTO) Timer1Handler(void)
 {
-    IFS0bits.T1IF = 0;
-    GMilliseconds = GMilliseconds + 1;
+    IFS0bits.T1IF = 0;                  /* Clear interrupt flag */
+    GMilliseconds = GMilliseconds + 1;  /* Increment our timer */
 }
 
