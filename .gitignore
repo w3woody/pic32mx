@@ -1,3 +1,4 @@
 .DS_Store
 /VerifyLED.X/build
 /VerifyLED.X/dist
+/VerifyLED.X/nbproject/private
