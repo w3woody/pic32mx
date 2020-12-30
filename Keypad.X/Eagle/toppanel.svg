@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0" y="0" width="768" height="1024" viewBox="0, 0, 768, 1024">
+  <g id="Layer_1">
+    <path d="M144.5,144.5 L342.5,144.5 L342.5,468.5 L144.5,468.5 L144.5,144.5 z" fill="none" stroke="#00FF00" stroke-width="1"/>
+    <path d="M167.864,164.84 C164.583,164.84 161.924,162.181 161.924,158.9 C161.924,155.619 164.583,152.96 167.864,152.96 C171.145,152.96 173.804,155.619 173.804,158.9 C173.804,162.181 171.145,164.84 167.864,164.84 z" fill="none" stroke="#FF0000" stroke-width="1"/>
+    <path d="M198.5,173.3 L288.5,173.3 L288.5,263.3 L198.5,263.3 L198.5,173.3 z" fill="none" stroke="#FF0000" stroke-width="1"/>
+    <path d="M319.1,164.84 C315.819,164.84 313.16,162.181 313.16,158.9 C313.16,155.619 315.819,152.96 319.1,152.96 C322.381,152.96 325.04,155.619 325.04,158.9 C325.04,162.181 322.381,164.84 319.1,164.84 z" fill="none" stroke="#FF0000" stroke-width="1"/>
+  </g>
+</svg>
