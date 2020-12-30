@@ -134,7 +134,7 @@ bool SSD1306::start(uint8_t addr)
      *  Delay a few milliseconds to make sure the system is stable
      */
 
-	DelayMilliseconds(20);
+	DelayMilliseconds(30);
 
    	/*
 	 *	Copy data to RAM buffer to send to module to start up

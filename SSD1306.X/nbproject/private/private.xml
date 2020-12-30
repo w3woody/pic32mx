@@ -3,17 +3,13 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/Users/woody/Development/pic32mx/SSD1306.X/main.cpp</file>
-            <file>file:/Applications/microchip/mplabx/v5.40/packs/Microchip/PIC32MX_DFP/1.3.231/include/proc/p32mx270f256b.h</file>
-            <file>file:/Users/woody/Development/pic32mx/SSD1306.X/display.h</file>
             <file>file:/Users/woody/Development/pic32mx/SSD1306.X/display.cpp</file>
-            <file>file:/Users/woody/Development/pic32mx/SSD1306.X/i2c.h</file>
-            <file>file:/Users/woody/Development/pic32mx/SSD1306.X/ssd1306.cpp</file>
-            <file>file:/Users/woody/Development/pic32mx/SSD1306.X/timers.c</file>
-            <file>file:/Users/woody/Development/pic32mx/SSD1306.X/fonts.h</file>
-            <file>file:/Users/woody/Development/pic32mx/SSD1306.X/i2c.c</file>
-            <file>file:/Users/woody/Development/pic32mx/SSD1306.X/smallfont.cpp</file>
             <file>file:/Users/woody/Development/pic32mx/SSD1306.X/ssd1306.h</file>
+            <file>file:/Users/woody/Development/pic32mx/SSD1306.X/ssd1306.cpp</file>
+            <file>file:/Users/woody/Development/pic32mx/SSD1306.X/display.h</file>
+            <file>file:/Users/woody/Development/pic32mx/SSD1306.X/main.cpp</file>
+            <file>file:/Users/woody/Development/pic32mx/SSD1306.X/fonts.h</file>
+            <file>file:/Users/woody/Development/pic32mx/SSD1306.X/timers.c</file>
         </group>
     </open-files>
 </project-private>

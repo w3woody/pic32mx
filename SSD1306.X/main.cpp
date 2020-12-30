@@ -65,7 +65,7 @@ int main()
     display.clear();
     display.moveTo((GDPoint){0,10});
     display.setFont(&smallfont);
-    display.drawString("Hello there!");
+    display.drawString("PIC32MX270F256B");
     
 //    display.frameOval((GDRect){ 20, 25, 50, 35 });
 //    display.paintOval((GDRect){ 25, 30, 40, 25 });
@@ -77,14 +77,14 @@ int main()
 //    display.moveTo((GDPoint){28,30});
 //    display.lineTo((GDPoint){127,63});
     
-    display.setDrawingMode(GL_WHITE);
-    display.frameRoundRect({ 30, 20, 30, 20 }, 8);
-    display.paintRoundRect({ 70, 30, 30, 20 }, 8);
+ //   display.setDrawingMode(GL_WHITE);
+ //   display.frameRoundRect({ 30, 20, 30, 20 }, 8);
+ //   display.paintRoundRect({ 70, 30, 30, 20 }, 8);
     
     display.writeDisplay();
          
     for (;;) {
-        DelayMilliseconds(50);
+        DelayMilliseconds(100);
         LATAbits.LATA0 = 1;     // LED is on
         DelayMilliseconds(100);
         LATAbits.LATA0 = 0;     // LED is on
